@@ -29,9 +29,9 @@ jobs:
       uses: actions/upload-artifact@v2.2.2
       with:
         # Artifact name
-        name: # optional, default is artifact
+        name: default is artifact
         # A file, directory or wildcard pattern that describes what to upload
-        path: sample-aspnet/bin/Release/netcoreapp3.1/*
+        path: /Release/*.*
         # The desired behavior if no files are found using the provided path.
         # Duration after which artifact will expire in days. 0 means using default retention
         retention-days: 30 
